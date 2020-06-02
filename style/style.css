@@ -2,3 +2,14 @@
     text-align: center;
     margin-top: 24px;
 }
+
+.ref {
+    width: 60%;
+    border: 0.5px solid #a6a6a6;
+    color: #737373;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #f2f2f2;
+    margin-right: auto;
+    margin-left:auto;
+}
