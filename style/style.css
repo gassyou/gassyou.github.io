@@ -9,7 +9,7 @@
 
 :root {
     /* Zen-inspired color palette */
-    --background: #f8f8f5; /* Soft cream background */
+    --background: #acbfbc; /* Soft cream background */
     --text-primary: #333333; /* Deep gray for main text */
     --text-secondary: #666666; /* Medium gray for secondary text */
     --accent: #a8a29e; /* Warm gray for accents */
@@ -39,9 +39,10 @@
 }
 
 body {
-    background-color:#acbfbc;
-    font-family:"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
-    line-height: 1.7;
+    color: var(--text-primary);
+    background-color: var(--background);
+    font-family:'Georgia', 'Times New Roman', serif,"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 1.5;
     overflow-x: hidden;
 }
 
