@@ -1,42 +1,46 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <meta name="keywords" content="企业级应用程序开发,全栈,c#,Java,Perl,ios,android,html5,设计模式,自动化测试,网页设计" />
-    <title>禅，技术，人生</title>
-    <link rel='icon' href='resources/icon.ico' type=‘image/x-ico’ />
-    <link rel='stylesheet' href='style/style.css' type='text/css' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="禅意编程之道 - 探索编程艺术与心灵修行的融合，追求心与代码的和谐统一">
+    <meta name="keywords" content="禅意编程,心灵修行,编程艺术,技术人生,工匠精神,代码修行">
+    <title>禅，技术，人生 | Zen of Coding</title>
+    <link rel="icon" href="resources/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
-    <header>
+    <header role="banner">
         <div class="container">
-            <img src="resources/icon.ico" />
+            <img src="resources/icon.png" alt="Zen of Coding Logo" width="60" height="60">
             <h1>Zen Of Coding</h1>
             <p>编程艺术与心灵修行的融合</p>
         </div>
-        <div style="text-align: center">
-            <span>文章</span>
-            <span>我</span>
-        </div>
+        <nav class="nav-links" role="navigation" aria-label="主导航">
+            <span tabindex="0" role="button" aria-label="查看文章">文章</span>
+            <span tabindex="0" role="button" aria-label="了解我">我</span>
+        </nav>
     </header>
-    <main>
-        <section id="ziqing" class="section">
+
+    <main role="main">
+        <section id="ziqing" class="section" aria-labelledby="ziqing-title">
             <div class="container">
-                <h2>梓庆削木为鐻 - 古代工匠之道</h2>
+                <h2 id="ziqing-title">梓庆削木为鐻 - 古代工匠之道</h2>
                 <div class="content-wrapper">
                     <div class="text-content">
-                        <p class="original">梓庆削木为鐻，日成，见者惊犹鬼神。鲁侯见而问焉，曰："子何术以为焉？" 对曰："臣，工人，何术之有！虽然，有一焉：臣将为
+                        <p class="original" lang="zh">梓庆削木为鐻，日成，见者惊犹鬼神。鲁侯见而问焉，曰："子何术以为焉？" 对曰："臣，工人，何术之有！虽然，有一焉：臣将为
                             鐻，未尝敢以耗气也，必齐以静心。 齐五日，不敢怀非誉巧拙； 齐七日，辄然忘吾有四枝形体也。 当是时也， 无公朝。其巧专而外骨消， 然后入山林，观天性形躯，至矣，然后成鐻，
                             然后加手焉，不然则已。 则以天合天，器之所以疑神者，其是与！"</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="gassyou" class="section">
+
+        <section id="gassyou" class="section" aria-labelledby="gassyou-title">
             <div class="container">
-                <h2>GASSYOU 名字的真意</h2>
+                <h2 id="gassyou-title">GASSYOU 名字的真意</h2>
                 <div class="content-wrapper">
                     <div class="text-content">
                         <p>GASSYOU:双手合十。是佛教中的一个手势</p>
@@ -45,108 +49,313 @@
                 </div>
             </div>
         </section>
-        <section id="meditation" class="section">
+
+        <section id="meditation" class="section" aria-labelledby="meditation-title">
             <div class="container">
-                <h2>编程即修行 - 禅意编程之道</h2>
+                <h2 id="meditation-title">编程即修行 - 禅意编程之道</h2>
                 <div class="content-wrapper">
                     <div class="text-content">
-                        <p>编程是一种修行。首先要从端正姿势开始。放松身心，内观自我，均匀呼吸。不焦，不躁，不疾，不徐，不妄想，作正念， 层层分析，让代码自然地在你的指端流淌出来。</p>
+                        <p>编程是一种修行。首先要从端正姿势开始。放松身心，内观自我，均匀呼吸。不焦，不躁，不疾，不徐，不妄想，作正念， 层层分析，让代码自然地在指尖流淌出来。</p>
 
                         <h3>禅意编程的要点：</h3>
-                        <ul>
-                            <li>端正坐姿 - 保持良好的身体姿态</li>
-                            <li>放松身心 - 释放紧张与焦虑</li>
-                            <li>专注当下 - 将注意力完全集中在当前任务</li>
-                            <li>均匀呼吸 - 维持平和的呼吸节奏</li>
-                            <li>正念思维 - 保持清晰的逻辑思维</li>
-                            <li>顺其自然 - 让代码如泉水般自然流淌</li>
-                        </ul>
+                        <div class="circular-card-grid">
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 5.5V6.5C15 7.9 14.2 9.1 13 9.7V15.5C13 16.9 14.2 18.1 15.5 18.5V22H8.5V18.5C9.8 18.1 11 16.9 11 15.5V9.7C9.8 9.1 9 7.9 9 6.5V5.5L3 7V9H21Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">端正坐姿</h4>
+                                <p class="circular-card-content">保持良好的身体姿态</p>
+                            </div>
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM15.5 8C16.33 8 17 8.67 17 9.5C17 10.33 16.33 11 15.5 11C14.67 11 14 10.33 14 9.5C14 8.67 14.67 8 15.5 8ZM8.5 8C9.33 8 10 8.67 10 9.5C10 10.33 9.33 11 8.5 11C7.67 11 7 10.33 7 9.5C7 8.67 7.67 8 8.5 8ZM12 17.5C14.33 17.5 16.31 15.88 16.86 13.5H7.14C7.69 15.88 9.67 17.5 12 17.5Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">放松身心</h4>
+                                <p class="circular-card-content">释放紧张与焦虑</p>
+                            </div>
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">专注当下</h4>
+                                <p class="circular-card-content">将注意力完全集中在当前任务</p>
+                            </div>
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM16 11H8V9H16V11ZM16 15H8V13H16V15Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">均匀呼吸</h4>
+                                <p class="circular-card-content">维持平和的呼吸节奏</p>
+                            </div>
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">正念思维</h4>
+                                <p class="circular-card-content">保持清晰的逻辑思维</p>
+                            </div>
+                            <div class="circular-card">
+                                <div class="circular-card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="circular-card-title">顺其自然</h4>
+                                <p class="circular-card-content">让代码如泉水般自然流淌</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="kendo" class="section">
+
+        <section id="kendo" class="section" aria-labelledby="kendo-title">
             <div class="container">
-                <h2>剑道精神与编程修行</h2>
+                <h2 id="kendo-title">剑道精神与编程修行</h2>
                 <div class="content-wrapper">
                     <div class="text-content">
                         <p>从精神修炼的意义上说，这个和日本的剑道是一样的。</p>
 
-                        <p class="original">剣道は剣の理法の修錬による人間形成の道である<br>
+                        <p class="original" lang="ja">剣道は剣の理法の修錬による人間形成の道である<br>
                             剣道を正しく真剣に学び<br>
                             心身を錬磨して旺盛なる気力を養い<br>
                             剣道の特性を通じて礼節をとうとび<br>
                             信義を重んじ誠を尽して<br>
                             常に自己の修養に努め<br>
                             剣道は、竹刀による「心気力一致」を目指し、自己を創造していく道である。</p>
-
                     </div>
                 </div>
             </div>
         </section>
-        <section id="purpose" class="section">
+
+        <section id="purpose" class="section" aria-labelledby="purpose-title">
             <div class="container">
-                <h2>编程的技术本质与价值追求</h2>
+                <h2 id="purpose-title">编程的技术本质与价值追求</h2>
                 <div class="content-wrapper">
                     <div class="text-content">
                         <p>编程的技术是程序的实现方式，程序的目的是帮助人们解决问题，提供价值。</p>
 
                         <h3>技术层面：</h3>
-                        <ul>
-                            <li>编程语言与框架 - 实现功能的工具</li>
-                            <li>算法与数据结构 - 解决问题的思路</li>
-                            <li>设计模式与架构 - 构建可维护的系统</li>
-                            <li>测试与调试 - 确保代码质量</li>
-                        </ul>
+                        <div class="card-grid">
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.4 16.84L4.8 10.84L3 12.39L8.61 19.99L15.42 10.84L13.61 9.29L9.4 16.84ZM10.59 4.58L8.47 7.38L13.07 13.38L14.88 11.84L10.59 4.58ZM20.5 12.5L19 14.5L17.5 12.5L19 10.5L20.5 12.5ZM16 6L14.5 8L13 6L14.5 4L16 6ZM22 8L20.5 10L19 8L20.5 6L22 8Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">编程语言与框架</h4>
+                                <p class="card-content">实现功能的工具</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">算法与数据结构</h4>
+                                <p class="card-content">解决问题的思路</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2L2 7L12 12L22 7L12 2ZM12 14L8 12L2 15L12 20L22 15L16 12L12 14Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">设计模式与架构</h4>
+                                <p class="card-content">构建可维护的系统</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">测试与调试</h4>
+                                <p class="card-content">确保代码质量</p>
+                            </div>
+                        </div>
 
                         <h3>价值层面：</h3>
-                        <ul>
-                            <li>解决实际问题 - 提升效率与便利</li>
-                            <li>创造社会价值 - 推动技术进步</li>
-                            <li>传承知识文化 - 促进信息传播</li>
-                            <li>服务人类福祉 - 让世界更美好</li>
-                        </ul>
+                        <div class="card-grid">
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">解决实际问题</h4>
+                                <p class="card-content">提升效率与便利</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">创造社会价值</h4>
+                                <p class="card-content">推动技术进步</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18 2H6C4.34 2 3 3.34 3 5V19C3 20.66 4.34 22 6 22H18C19.66 22 21 20.66 21 19V5C21 3.34 19.66 2 18 2ZM18 20H6C5.45 20 5 19.55 5 19V5C5 4.45 5.45 4 6 4H18C18.55 4 19 4.45 19 5V19C19 19.55 18.55 20 18 20ZM17 11H7V9H17V11ZM17 15H7V13H17V15ZM14 7H7V5H14V7Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">传承知识文化</h4>
+                                <p class="card-content">促进信息传播</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 21.35L10.55 20.03C5.4 15.36 2 12.27 2 8.5C2 5.41 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.08C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.41 22 8.5C22 12.27 18.6 15.36 13.45 20.03L12 21.35Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">服务人类福祉</h4>
+                                <p class="card-content">让世界更美好</p>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="harmony" class="section" aria-labelledby="harmony-title">
+            <div class="container">
+                <h2 id="harmony-title">心与代码的和谐统一</h2>
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <p>禅意编程追求的是心与代码的和谐统一，这不仅是技术层面的精进，更是精神层面的升华。</p>
+                        <p>在编程过程中，我们通过以下方式实现这种和谐：</p>
+                        <div class="card-grid">
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">意识与行动的统一</h4>
+                                <p class="card-content">思维清晰，代码明确</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">简洁与功能的平衡</h4>
+                                <p class="card-content">代码简洁但功能完备</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 11C17.66 11 18.99 9.66 18.99 8S17.66 5 16 5 13 6.34 13 8 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8S9.66 5 8 5 5 6.34 5 8 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">个人与团队的协作</h4>
+                                <p class="card-content">在团队中保持个人风格</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">技术与人文的融合</h4>
+                                <p class="card-content">技术服务于人文关怀</p>
+                            </div>
+                        </div>
+
+                        <p>这种和谐状态让我们在编程中体验到：</p>
+                        <div class="card-grid">
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20 4H16.83L15 2H9L7.17 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 18H4V6H8.03C8.03 6.68 8.17 7.33 8.42 7.92L9.5 9.5H14.5L15.58 7.92C15.83 7.33 15.97 6.68 15.97 6H20V18ZM12 15.5C10.07 15.5 8.5 13.93 8.5 12S10.07 8.5 12 8.5 15.5 10.07 15.5 12 13.93 15.5 12 15.5Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">流畅的创作过程</h4>
+                                <p class="card-content">如同书法绘画般自然</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM15.5 8C16.33 8 17 8.67 17 9.5C17 10.33 16.33 11 15.5 11C14.67 11 14 10.33 14 9.5C14 8.67 14.67 8 15.5 8ZM8.5 8C9.33 8 10 8.67 10 9.5C10 10.33 9.33 11 8.5 11C7.67 11 7 10.33 7 9.5C7 8.67 7.67 8 8.5 8ZM12 17.5C14.33 17.5 16.31 15.88 16.86 13.5H7.14C7.69 15.88 9.67 17.5 12 17.5Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">深度的满足感</h4>
+                                <p class="card-content">不仅是完成任务，更是自我实现</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16 6L18.29 8.29L13.41 13.17L9.41 9.17L2 16.59L3.41 18L9.41 12L13.41 16L19.71 9.71L22 12V6H16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">持续的成长感</h4>
+                                <p class="card-content">每次编程都是修行的机会</p>
+                            </div>
+                            <div class="card">
+                                <div class="card-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16Z" />
+                                    </svg>
+                                </div>
+                                <h4 class="card-title">内心的平静感</h4>
+                                <p class="card-content">在代码世界中找到安宁</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2>梓庆之鐻 - 做产品者的最高追求</h2>
+                <div class="slogan-section">
+                    <p class="slogan-highlight">良好的精神状态才有良好的代码，<br>有良好的代码才会良好的产品</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <section id="harmony" class="section">
-        <div class="container">
-            <h2>心与代码的和谐统一</h2>
-            <div class="content-wrapper">
-                <div class="text-content">
-                    <p>禅意编程追求的是心与代码的和谐统一，这不仅是技术层面的精进，更是精神层面的升华。</p>
-                    <p>有良好的精神状态才有良好的代码，有良好的代码才会良好的产品。梓庆之鐻，惊天地泣鬼神是做产品的最好追求。</p>
-
-                    <p>在编程过程中，我们通过以下方式实现这种和谐：</p>
-                    <ul>
-                        <li>意识与行动的统一 - 思维清晰，代码明确</li>
-                        <li>简洁与功能的平衡 - 代码简洁但功能完备</li>
-                        <li>个人与团队的协作 - 在团队中保持个人风格</li>
-                        <li>技术与人文的融合 - 技术服务于人文关怀</li>
-                    </ul>
-
-                    <p>这种和谐状态让我们在编程中体验到：</p>
-                    <ul>
-                        <li>流畅的创作过程 - 如同书法绘画般自然</li>
-                        <li>深度的满足感 - 不仅是完成任务，更是自我实现</li>
-                        <li>持续的成长感 - 每次编程都是修行的机会</li>
-                        <li>内心的平静感 - 在代码世界中找到安宁</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
             <p>禅意编程之道 - 编程艺术与心灵修行的融合</p>
-            <p>© 2025 Zen of Coding. All rights reserved.</p>
+            <p>&copy; 2025 Zen of Coding. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 
