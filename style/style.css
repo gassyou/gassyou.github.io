@@ -61,6 +61,7 @@ header {
     padding: var(--spacing-xxl) var(--spacing-md) var(--spacing-xl);
     background-color: var(--white-transparent);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border);
     position: relative;
 }
